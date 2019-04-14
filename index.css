@@ -1,0 +1,203 @@
+*
+{
+        margin: 0;
+        padding: 0;
+}
+body
+{
+    background-color: #F8F8FF;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+h1
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    color: #444;
+}
+h2
+{
+    padding-top: 90px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    background: url('http://ecole-de-cirque-pitreries.fr/wp-content/themes/mh-magazine-lite/images/Chapiteau.png') no-repeat center;
+    background-size: 110px;
+}
+h3
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 27px;
+    color: #444;
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+    
+}
+.wrapper
+{
+    width: 940px;
+    margin: auto;
+    padding: 0 10px;
+}
+.red
+{
+    color: #FF0000;
+}
+.clear
+{
+    clear: both;
+}
+
+/* HEADER */
+
+header
+{
+    height: 120px;
+}
+header h1
+{
+    float: left;
+    margin-top: 32px;
+    font-weight: light;
+}
+header nav
+{
+    float: right;
+    margin-top: 50px;
+}
+header nav ul li
+{
+    font-family: 'Amatic SC', cursive;
+    float: left;
+    display: inline-block;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+/* MAIN IMAGE*/
+#main-image
+{
+    background: url('https://cdn-s-www.bienpublic.com/images/269F1B34-5527-492F-AC31-E384D8A421C9/LBP_v1_02/photo-cirque-d-hiver-bouglione-1479294173.jpg') center no-repeat;
+    height: 280px;
+}
+/* Performances */
+
+#Perf ul
+{
+   margin: 30px 0; 
+}
+#Perf ul li
+{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px; 
+}
+#performance-1
+{
+  background: url('https://previews.123rf.com/images/alexraths/alexraths1501/alexraths150100053/35560687-portrait-d-un-clown-criant-isol%C3%A9-sur-fond-blanc.jpg') no-repeat top center;
+   background-size: 200px; 
+ }
+#performance-2
+{
+  background: url('http://www.parisnightlife.fr/wp-content/uploads/Spectacle-visuel549f3b497fad1.jpg') no-repeat top center;
+   background-size: 200px; 
+}
+#performance-3
+{
+   background: url('https://images.sudouest.fr/2015/08/26/57eb972466a4bd7760c4de4b/golden/teddy-mordon-animera-une-bonne-partie-du-spectacle-grace-a-ses-talents-de-dresseur-de-fauves.jpg') no-repeat top center;
+    background-size: 200px;
+}
+
+/* About Us */
+#Aboutus
+{
+  margin-top: 10px;
+  
+}
+#Aboutus p
+{
+    padding: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+/*PRICES*/
+table 
+{
+	border: 1px solid #FFF;
+	border-collapse: collapse;
+	margin: auto;
+	font-size: 1em;
+	color: black;
+  width: 70%;
+}
+table td, th  {
+	background-color: white;
+	border: 1px solid grey;
+	font-weight: normal;
+	text-align: center;
+	padding: 1em;
+}
+/*CONTACT US*/
+#first
+{
+  margin-top: 15px;
+  width: 20%;
+}
+input 
+{
+	padding: 5px;
+	font-size: 1em;
+	width: 25%;
+	border: 1px solid grey;
+	border-radius: 100px;
+}
+
+label 
+{
+	font-weight: bold;
+	font-size: 1em;
+}
+
+textarea {
+	width: 85%;
+	padding: 15px;
+	font-size: 1em;
+	border-radius: 30px;
+	border: 1px solid grey;
+  margin-left: 5%;
+}
+
+button 
+{
+	color: black;
+	font-size: 1em;
+	width: 12em;
+	margin-bottom: 2em;
+	border: none;
+	padding: 1em;
+	border-radius: 100px;
+  margin-left: 5%;
+}
+
+footer p
+{
+  text-align: center;
+}
